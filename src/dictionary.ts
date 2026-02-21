@@ -1,4 +1,8 @@
 const dictionary = {
+  disclaimer: {
+    text: "This is an example app built with General Translation to demonstrate i18n capabilities.",
+    link: "View all examples",
+  },
   header: {
     brand: "General Translation",
     title: "Dictionary Pattern",

@@ -8,6 +8,20 @@ export default async function Home() {
 
   return (
     <div className="min-h-screen bg-neutral-950 font-sans text-neutral-200">
+      {/* Example app disclaimer */}
+      <div className="bg-neutral-900 border-b border-neutral-800 text-center py-2 px-4">
+        <p className="text-xs text-neutral-400">
+          {d("disclaimer.text")}{" "}
+          <a
+            href="https://generaltranslation.com/en-US/docs"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-emerald-400 hover:text-emerald-300 underline transition-colors"
+          >
+            {d("disclaimer.link")}
+          </a>
+        </p>
+      </div>
       <header className="border-b border-neutral-800 bg-neutral-950">
         <div className="max-w-3xl mx-auto px-6 py-5 flex items-center justify-between">
           <div className="flex items-center gap-3">
